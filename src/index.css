@@ -1,3 +1,7 @@
+:root{
+  --red : #db0000;
+}
+
 body {
   margin: 10px;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
@@ -5,7 +9,8 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  
+   color: var(--red);
+   background-color: beige;
 }
 
 code {
@@ -13,37 +18,88 @@ code {
     monospace;
 }
 
+
+/* DASHBOARD */
 .dashboard{
   display: grid;
   grid-template-columns: 5fr 1fr;
+  padding-bottom: 2%;
 }
+
+
     .header{
       font-size: 22pt;
-      font-weight: 600;
+      font-weight: 300;
     }
 
+        .store-name{
+          padding-left: 5px;
+        }
+        .nav-link{
+          padding-top: 2%;
+          display: flex;
+        }
+
+ /* HOME */       
     .home-main{
       display: grid;
       grid-template-columns: 5fr 3fr;
-    }
+    } 
 
     .home-col1{
-      border: 2px solid gray;
-    }
+      border: 2px solid var(--red);
+      border-left: none;
+      border-right: none;
+    } 
+      .home-img{
+        padding-top: 3%;
+        padding-left: 2.5%;
+        padding-bottom: 2.5%;
+      }
 
-        .shop-link{
-         text-decoration: none;
-         color: black;
-          font-weight: 500;
-          
+        .class-link{
+          color: var(--red);
+          font-weight: 300;
+          font-size: 13pt;
+          text-decoration: none;
         }
 
     .home-col2{
-      border: 2px solid gray;
+      border: 2px solid  var(--red);
+      border-right: none;
+      border-left: none;
+      border-bottom: none;
+      
+      
       padding-top: 10%;
       font-size: 13pt;
+
       
     }
+
+      .home-text1{
+        padding-bottom: 3%;
+      }
+
+      .home-text2{
+        padding-bottom: 5%;
+      }
+
+      .home-text3{
+        padding-bottom: 9%;
+      }
+      
+      #product-link{
+        border: 1px solid var(--red);
+        padding: 15px 20px 15px 15px;
+      }
+
+      .bottom-col2{
+        margin-top: 20%;
+        border-bottom: 1px solid var(--red) ;
+        width: 450px;
+      }
+
       .home-img:hover {
         opacity: 0.7;
       }

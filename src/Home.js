@@ -8,10 +8,13 @@ const Home= ()=>{
               <Dashboard />
               <div className='home-main'>
                 <div className='home-col1'>
-                      <h1>Home page</h1>
+                      <h1></h1>
                       <img src={homeImage} height={533} width={800}
                       alt='home-img' className='home-img'></img>
                 </div>
+
+
+
                 <div className='home-col2'>
                     <div className='home-text1'>Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum 
                     Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum 
@@ -21,9 +24,11 @@ const Home= ()=>{
                     <div className='home-text3'> Shibuya, Japan</div>
                     <div className='shop-link'>
                       <nav>
-                      <Link to = '/cart'>See our Product</Link>
+                      <Link to = '/cart' className='class-link' id='product-link' style={{fontWeight: 500}}>
+                       See our Product</Link>
                       </nav>
                     </div>
+                    <div className='bottom-col2'></div>
                 </div>
 
               </div>

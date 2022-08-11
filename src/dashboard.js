@@ -9,13 +9,14 @@ const Dashboard = () => {
                   S Coffee
                 </div>
             </div>
-            <div>
-                    <nav>
-                <Link to = '/'>Home</Link> |{'  '}
-                <Link to = '/shop'>Shop</Link> |{'  '}
-                <Link to = '/cart'>Cart</Link> |{'  '}
+            <div className='nav-link'>
+                    <nav >
+                <Link to = '/' className='class-link'>Home</Link> |{'  '}
+                <Link to = '/shop' className='class-link'>Shop</Link> |{'  '}
+                <Link to = '/cart' className='class-link'>Cart</Link> |{'  '}
                 < Outlet />
               </nav>    
+              <div className='total-price'>Totaal</div>
             </div>
       </div>
     )
