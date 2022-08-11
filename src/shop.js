@@ -18,12 +18,12 @@ const Shop = () =>{
 
     const addToCart = (ev) => {
         setCart((prev)=>  Number(prev) + Number(ev.target.id))
-        alert('added to cart, total cart: ' + cart)
+        alert('added to cart!')
     }
 
     return (
         <div>  
-           < Dashboard />
+           < Dashboard sumCart={cart}/>
           <div className='shop-main'>
             
             { productData.map((data) => (

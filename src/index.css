@@ -24,6 +24,10 @@ code {
   display: grid;
   grid-template-columns: 5fr 1fr;
   padding-bottom: 2%;
+  position: sticky;
+  top: 5px;
+  border-bottom: 2px solid var(--red);
+  background-color: beige;
 }
 
 

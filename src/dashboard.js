@@ -1,7 +1,7 @@
 import {Link, Outlet} from 'react-router-dom';
 import './index.css';
 
-const Dashboard = () => {
+const Dashboard = (props) => {
     return(
       <div className='dashboard'>
             <div className='header'>
@@ -13,10 +13,10 @@ const Dashboard = () => {
                     <nav >
                 <Link to = '/' className='class-link'>Home</Link> |{'  '}
                 <Link to = '/shop' className='class-link'>Shop</Link> |{'  '}
-                <Link to = '/cart' className='class-link'>Cart</Link> |{'  '}
+                <Link to = '/cart' className='class-link'>Checkout</Link> |{'  '}
                 < Outlet />
               </nav>    
-              <div className='total-price'>Totaal</div>
+              <div className='total-price'>{props.sumCart} Usd</div>
             </div>
       </div>
     )

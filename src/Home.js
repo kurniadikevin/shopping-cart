@@ -2,13 +2,14 @@ import Dashboard from './dashboard';
 import homeImage from './image/coffee-roaster.jpg';
 import {Link} from 'react-router-dom';
 
+
 const Home= ()=>{
   return (
     <div className="home">
-              <Dashboard />
+                < Dashboard />
               <div className='home-main'>
                 <div className='home-col1'>
-                      <h1></h1>
+                      
                       <img src={homeImage} height={533} width={800}
                       alt='home-img' className='home-img'></img>
                 </div>
