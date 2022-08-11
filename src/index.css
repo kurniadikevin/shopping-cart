@@ -43,6 +43,9 @@ code {
           padding-top: 2%;
           display: flex;
         }
+        .nav-link:hover{
+          font-size: 13pt;
+        }
 
  /* HOME */       
     .home-main{
@@ -61,7 +64,7 @@ code {
 
         .class-link{
           color: var(--red);
-          font-weight: 300;
+          font-weight: 400;
           font-size: 13pt;
           text-decoration: none;
         }

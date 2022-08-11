@@ -52,6 +52,7 @@ const Shop = () =>{
    
     // store cart on session storage
     sessionStorage.setItem('globalCart',cart);
+    sessionStorage.setItem('Product-Data',JSON.stringify(productData));
   
     console.log(productData)//
     
@@ -64,7 +65,7 @@ const Shop = () =>{
             { productData.map((data,index) => (
 
             <div className='product'>
-               <img src={require(`./image/product/${data.imageName}.jpg`)} 
+               <img className='product-image' src={require(`./image/product/${data.imageName}.jpg`)} 
                 alt='product-img' height={300} width={225}/>
                 <div className='product-desc'>
                     <div className='product-label'>{data.label}</div>
