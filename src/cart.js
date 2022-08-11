@@ -2,10 +2,15 @@ import Dashboard from './dashboard';
 
 
 const Cart = () =>{
+
+    const checkoutCart = sessionStorage.getItem('globalCart');
+
     return (
         <div>  
              < Dashboard />
-            <h1>This is cart page</h1>
+            <div>
+                <div>Your total order is {checkoutCart}$ Usd </div>
+            </div>
           
         </div>
     )

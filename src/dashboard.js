@@ -1,7 +1,7 @@
 import {Link, Outlet} from 'react-router-dom';
 import './index.css';
 
-const Dashboard = (props) => {
+const Dashboard = () => {
 
   const getLocalCart = sessionStorage.getItem('globalCart');
 
