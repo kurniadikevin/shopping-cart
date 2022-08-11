@@ -51,9 +51,7 @@ code {
     } 
 
     .home-col1{
-      border: 2px solid var(--red);
-      border-left: none;
-      border-right: none;
+      border-bottom: 2px solid var(--red);
     } 
       .home-img{
         padding-top: 3%;
@@ -69,12 +67,6 @@ code {
         }
 
     .home-col2{
-      border: 2px solid  var(--red);
-      border-right: none;
-      border-left: none;
-      border-bottom: none;
-      
-      
       padding-top: 10%;
       font-size: 13pt;
 

@@ -2,6 +2,9 @@ import {Link, Outlet} from 'react-router-dom';
 import './index.css';
 
 const Dashboard = (props) => {
+
+  const getLocalCart = sessionStorage.getItem('globalCart');
+
     return(
       <div className='dashboard'>
             <div className='header'>
@@ -16,7 +19,7 @@ const Dashboard = (props) => {
                 <Link to = '/cart' className='class-link'>Checkout</Link> |{'  '}
                 < Outlet />
               </nav>    
-              <div className='total-price'>{props.sumCart} Usd</div>
+              <div className='total-price'>{getLocalCart} Usd</div>
             </div>
       </div>
     )

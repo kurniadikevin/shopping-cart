@@ -1,10 +1,15 @@
 import { BrowserRouter, Routes, Route } from "react-router-dom";
+import { useState } from "react";
 import  Home  from './Home';
 import  Shop  from './shop';
 import  Cart  from './cart';
 
 
 const RouteSwitch = () => {
+
+    
+    
+
     return(
         <BrowserRouter>
                 <Routes>
