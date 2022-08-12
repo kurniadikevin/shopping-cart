@@ -1,4 +1,5 @@
 import {Link, Outlet} from 'react-router-dom';
+import { FaCartArrowDown } from "react-icons/fa";
 import './index.css';
 
 const Dashboard = () => {
@@ -9,17 +10,20 @@ const Dashboard = () => {
       <div className='dashboard'>
             <div className='header'>
                 <div className='store-name'>
-                  S Coffee
+                <Link to = '/' className='header'>Fake Coffee Roaster</Link> 
                 </div>
             </div>
-            <div className='nav-link'>
-                    <nav >
-                <Link to = '/' className='class-link'>Home</Link> |{'  '}
-                <Link to = '/shop' className='class-link'>Shop</Link> |{'  '}
-                <Link to = '/cart' className='class-link'>Checkout</Link> |{'  '}
+            <div >
+                    <nav className='nav-link'>
+                  <Link to = '/' className='class-link'>Home</Link>
+                  <Link to = '/shop' className='class-link'>Shop</Link>
+                  <Link to = '/cart' className='class-link'>
+                  <FaCartArrowDown />  
+                  </Link>
+                  <div className='total-price'>{getLocalCart} Usd</div>
                 < Outlet />
-              </nav>    
-              <div className='total-price'>{getLocalCart} Usd</div>
+                   </nav>    
+              
             </div>
       </div>
     )

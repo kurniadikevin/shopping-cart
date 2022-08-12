@@ -25,7 +25,7 @@ const Home= ()=>{
                     <div className='home-text3'> Shibuya, Japan</div>
                     <div className='shop-link'>
                       <nav>
-                      <Link to = '/cart' className='class-link' id='product-link' style={{fontWeight: 500}}>
+                      <Link to = '/shop' className='class-link' id='product-link' style={{fontWeight: 500}}>
                        See our Product</Link>
                       </nav>
                     </div>

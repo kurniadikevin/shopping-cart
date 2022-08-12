@@ -5,7 +5,7 @@ import './shop.css'
 const Shop = () =>{
 
     const [productData, setProductData] = useState([
-        { id : 1, label : 'Filter', imageName : 'burundi', price : 12, quantity : 0 },
+        { id : 1, label : 'Burundi Shambati Kayanze, Washed, Filter roast, 200gr ', imageName : 'burundi', price : 12, quantity : 0 },
         { id : 2, label : 'Filter', imageName : 'cedingAyu', price : 12 , quantity : 0},
         { id : 3, label : 'Filter', imageName : 'hunkute', price : 13 , quantity : 0},
         { id : 4, label : 'Espresso', imageName : 'kerinciNat', price : 10 , quantity : 0},
