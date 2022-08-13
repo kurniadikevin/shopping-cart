@@ -26,35 +26,35 @@ const Shop = () =>{
     // adding cart price and quantity
      const addToCart = (ev) => {
         setCart((prev)=>  Number(prev) + Number(ev.target.id))
-        alert('added to cart!');
-        console.log(cart);
+        //alert('added to cart!');
+        //console.log(cart);
         }
         
     const addQuantity = (index) =>{
        productData[index].quantity += 1;
-      console.log(productData[index].quantity)
-      console.log(productData);
-      alert('total order '+ cart);
+      //console.log(productData[index].quantity)
+      //console.log(productData);
+      //alert('total order '+ cart);
     }
 
     //reduce cart price and quantity
     const reduceQuantity = (index) =>{
         productData[index].quantity -= 1;
-        alert('total order ' + cart);
-        console.log(productData);
+        //alert('total order ' + cart);
+        //console.log(productData);
     }
 
     const removeFromCart = (ev) => {
         setCart((prev)=>  Number(prev) - Number(ev.target.id))
-        alert('added to cart!');
-        console.log(cart);
+        //alert('added to cart!');
+        //console.log(cart);
         }
    
     // store cart on session storage
     sessionStorage.setItem('globalCart',cart);
     sessionStorage.setItem('Product-Data',JSON.stringify(productData));
   
-    console.log(productData)//
+    //console.log(productData)//
     
 
     return (

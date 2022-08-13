@@ -22,7 +22,7 @@ const Home= ()=>{
                     </div>
                     <div className='home-text2'>Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum 
                     </div>
-                    <div className='home-text3'> Shibuya, Japan</div>
+                    <div className='home-text3'> Bandung, Indonesia</div>
                     <div className='shop-link'>
                       <nav>
                       <Link to = '/shop' className='class-link' id='product-link' style={{fontWeight: 500}}>

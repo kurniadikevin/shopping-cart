@@ -25,7 +25,7 @@ const Cart = () =>{
                     </div>
                 {productOnCart.map((data) => (
                     <div className='cart-log'>
-                        <div>{data.imageName}</div>
+                        <div>{data.label}</div>
                         <div>{data.quantity}</div>
                         <div>{data.price}$ </div>
                         <div>{data.price * data.quantity}$</div>
