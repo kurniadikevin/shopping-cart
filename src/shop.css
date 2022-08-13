@@ -9,7 +9,8 @@
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     gap: 10%;
-    color: var(--red);
+    color: beige;
+    background-color: rgb(46, 45, 45);
     
     
 }
@@ -20,42 +21,48 @@
         }
 
     .product-desc{
-       
+       font-weight: 500;
+        display: flex;
+        gap: 2%;
+        flex-direction: column;
     }    
 
         .product-image{
-            transition: 0.5s;
+            transition: 1s;
             border: 1px solid black;
         }
 
         .product-image:hover{
            height: 310px;
            width: 235px;
+           opacity: 0.8;
         }
         .product-label{
             padding-bottom: 5%;
-            color: var(--red);
+            font-weight: 500;
             font-size: 13pt;
         }
         
         .price-cont{
             padding-bottom: 2.5%;
         }
-        .buy-btn{
+        
+        button{
+            background-color: beige;
+            border: 1px solid rgb(46, 45, 45);
             font-weight: 500;
-            cursor: grabbing;
+            font-family: 'Old Standard TT', serif;
+            font-size: 11pt;
         }
-
-        .buy-btn:hover{
-            color: #db0000;
-            font-size: 15pt;
-        } 
+        button:active {
+           background-color: rgb(46, 45, 45);
+           color: beige;
+        }
 
 /* CART */
 
 .cart-container{
-   
-    border: 0px solid black;
+   padding-left: 1%;
 }
 
 .cart-log, .cart-head, .total-cart{
@@ -72,7 +79,7 @@
 
     .cart-head{
         padding-top: 5%;
-        border-bottom: 1px solid var(--red);
+        border-bottom: 1px solid beige;
     }
     .cart-log{
         padding-top: 1%;
@@ -84,10 +91,18 @@
     font-size: 12pt;
     padding-top: 2.5%;
     font-weight: 500;
-    border-top: 1px solid var(--red);
+    border-top: 1px solid beige;
 }
 
+#checkout-id{
+    border: 1px solid beige;
+    width: 100px;
+    display: flex;
+    justify-content: center;
+    padding:5px;
+}
 #checkout-id:hover{
     cursor:pointer;
     font-size: 13pt;
+    
 }

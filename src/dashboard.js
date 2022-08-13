@@ -10,7 +10,7 @@ const Dashboard = () => {
       <div className='dashboard'>
             <div className='header'>
                 <div className='store-name'>
-                <Link to = '/' className='header'>Fake Coffee Roaster</Link> 
+                <Link to = '/' className='header'>Strut Coffee Roaster</Link> 
                 </div>
             </div>
             <div >
