@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/shopping-cart/static/css/main.2cd02adf.css",
+    "main.js": "/shopping-cart/static/js/main.02df1a0b.js",
+    "static/media/coffee-roaster.jpg": "/shopping-cart/static/media/coffee-roaster.1a70c88525207da0de89.jpg",
+    "static/media/burundi.jpg": "/shopping-cart/static/media/burundi.4d5bec62ef1ab69de438.jpg",
+    "static/media/kerinciNat.jpg": "/shopping-cart/static/media/kerinciNat.9c477e07039b352ad0e6.jpg",
+    "static/media/torajaNosu.jpg": "/shopping-cart/static/media/torajaNosu.cf2698066cec630fac9c.jpg",
+    "static/media/cedingAyu.jpg": "/shopping-cart/static/media/cedingAyu.a95dd0222e4ae93ee793.jpg",
+    "static/media/hunkute.jpg": "/shopping-cart/static/media/hunkute.984cdbe2104e1982515d.jpg",
+    "static/media/manglayang.jpg": "/shopping-cart/static/media/manglayang.568f8ca93ac9ca06dc1f.jpg",
+    "index.html": "/shopping-cart/index.html",
+    "main.2cd02adf.css.map": "/shopping-cart/static/css/main.2cd02adf.css.map",
+    "main.02df1a0b.js.map": "/shopping-cart/static/js/main.02df1a0b.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.2cd02adf.css",
+    "static/js/main.02df1a0b.js"
+  ]
+}
