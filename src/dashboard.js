@@ -17,11 +17,12 @@ const Dashboard = () => {
                     <nav className='nav-link'>
                   <Link to = '/' className='class-link'>Home</Link>
                   <Link to = '/shop' className='class-link'>Shop</Link>
-                  <Link to = '/cart' className='class-link'>
+                  <Link to = 'cart/cart' className='class-link'>
                   <FaCartArrowDown />  
                   </Link>
+                  
                   <div className='total-price'>{getLocalCart} Usd</div>
-                < Outlet />
+               
                    </nav>    
               
             </div>

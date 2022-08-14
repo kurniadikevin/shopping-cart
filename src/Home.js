@@ -1,12 +1,13 @@
 import Dashboard from './dashboard';
 import homeImage from './image/coffee-roaster.jpg';
-import {Link} from 'react-router-dom';
+import {Link, Outlet} from 'react-router-dom';
 
 
 const Home= ()=>{
   return (
     <div className="home">
                 < Dashboard />
+                < Outlet />
               <div className='home-main'>
                 <div className='home-col1'>
                       
@@ -25,7 +26,7 @@ const Home= ()=>{
                     <div className='home-text3'> Bandung, Indonesia</div>
                     <div className='shop-link'>
                       <nav>
-                      <Link to = '/shop' className='class-link' id='product-link' style={{fontWeight: 500}}>
+                      <Link to = '/shopping-cart/shop' className='class-link' id='product-link' style={{fontWeight: 500}}>
                        See our Product</Link>
                       </nav>
                     </div>
