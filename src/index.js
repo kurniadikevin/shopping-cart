@@ -7,10 +7,10 @@ import RouteSwitch from './RouterSwitch';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
-  <BrowserRouter basename='/shopping-cart'>
-     
-        <RouteSwitch />
-     
-  </BrowserRouter >
+        <BrowserRouter >  
+              
+                        <RouteSwitch />
+                
+        </BrowserRouter>
 );
 

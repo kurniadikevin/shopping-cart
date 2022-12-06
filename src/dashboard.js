@@ -17,7 +17,7 @@ const Dashboard = () => {
                     <nav className='nav-link'>
                   <Link to = '/' className='class-link'>Home</Link>
                   <Link to = '/shop' className='class-link'>Shop</Link>
-                  <Link to = 'cart/cart' className='class-link'>
+                  <Link to = '/cart' className='class-link'>
                   <FaCartArrowDown />  
                   </Link>
                   

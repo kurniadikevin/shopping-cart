@@ -1,18 +1,17 @@
 import Dashboard from './dashboard';
 import homeImage from './image/coffee-roaster.jpg';
 import {Link, Outlet} from 'react-router-dom';
+import SlideShow from './slideshow/slideshow.js';
 
 
 const Home= ()=>{
   return (
     <div className="home">
                 < Dashboard />
-                < Outlet />
+               
               <div className='home-main'>
                 <div className='home-col1'>
-                      
-                      <img src={homeImage} height={533} width={800}
-                      alt='home-img' className='home-img'></img>
+                      <SlideShow/>
                 </div>
 
 
@@ -26,7 +25,7 @@ const Home= ()=>{
                     <div className='home-text3'> Bandung, Indonesia</div>
                     <div className='shop-link'>
                       <nav>
-                      <Link to = '/shopping-cart/shop' className='class-link' id='product-link' style={{fontWeight: 500}}>
+                      <Link to = '/shop' className='class-link' id='product-link' style={{fontWeight: 500}}>
                        See our Product</Link>
                       </nav>
                     </div>
@@ -34,7 +33,7 @@ const Home= ()=>{
                 </div>
 
               </div>
-             
+              < Outlet />
     </div>
   );
 }
